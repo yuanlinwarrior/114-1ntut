@@ -34,13 +34,14 @@ header h1 {
 }
 
 .btn {
-  border: 2px solid #5c7c3a;      /* 黑色外框 */
+  border: 2px solid #5c7c3a;      /* 外框 */
   background-color: transparent; /* 無底色 */
   color: #5c7c3a;                 /* 文字與框線同色 */
   padding: 6px 16px;           /* 按鈕內距 */
   font-weight: bold;
   cursor: pointer;
   transition: all 0.3s ease;   /* 增加滑鼠移入的流暢效果 */
+  border-radius: 5px;
 }
 
 /* 滑鼠移上去時反轉顏色（可選） */
@@ -112,8 +113,9 @@ nav a {
   background-color: #7a8f53;
   color: #e4f3ce;
   font-weight: bold;
-  padding: 8px 12px;
+  padding: 15px 12px;
   font-size: 16px;
+  border-radius: 5px;
 }
 
 .img-group {
@@ -131,4 +133,7 @@ nav a {
   font-size: 14px;   
   color: #595959;
   line-height: 1.5;
+  background-color: #fefefe82;
+  padding: 15px 12px;
+  font-size: 16px;
 }
