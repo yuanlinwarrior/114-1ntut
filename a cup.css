@@ -1,0 +1,197 @@
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  margin: 0;
+  background-color: #f8f8f3;
+  color: #222;
+  min-height: 200vh; /* 讓整頁變成兩倍螢幕高，可滾動 */
+}
+
+/* 最上導覽列 */
+.navbar {
+  background-color: white;
+  text-align: left;
+  padding: 10px 40px;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar ul {
+  list-style: none;
+  display: inline-flex;
+  gap: 25px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+/* banner */
+.banner img {
+  width: 100%;       /* 預設寬度填滿容器 */
+  max-height: 100vh; /* 限制最大高度，可依需求調整 */
+  object-fit: cover; /* 保持比例裁切，避免變形 */
+}
+
+.container {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+
+/* 中導覽列 */
+.tabs {
+  display: flex;
+  justify-content: center;
+  background-color: #3c2f1e;
+}
+
+.tab {
+  background-color: #c8d88f;
+  border: none;
+  color: #333;
+  padding: 10px 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.tab:hover,
+.tab.active {
+  background-color: #f0f5ce;
+  color: #000;
+}
+
+/* 內容區 */
+.content {
+  display: none;
+  background-color: #d9e7a9;
+  padding: 100px; /*中導覽內容*/
+  transition: opacity 0.3s ease;
+}
+#introduction {
+  background-color: #d9e7a9; /* 淡綠色 */
+}
+#history {
+  background-color: #C3CE90; 
+}
+#founder {
+  background-color: #A9B27C; 
+}
+.content.active {
+  display: block;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* banner的shop now */
+.shop-btn {
+  background-color: #d9e7a9;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+
+/* 功能選單 */
+.menu {
+  background-color: #352917;
+  padding: 15px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.menu-btn {
+  background-color: #DAE5A5;
+  color: #352917;
+  border: none;
+  padding: 15px 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* 品牌介紹 */
+.brand {
+  padding: 40px 80px;
+  line-height: 1.8;
+  color: #333;
+}
+
+.brand h2 {
+  text-align: left;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.brand p {
+  text-align: justify;
+}
+
+/* 推薦商品區塊 */
+.products-section h2 {
+  text-align: center;
+  font-size: 32px;
+  color: #4a3b00;
+  margin-bottom: 40px;
+}
+
+.product-category {
+  margin-bottom: 60px;
+}
+
+.product-category h3 {
+  font-size: 22px;
+  color: #4a3b00;
+  margin-left: 8%;
+}
+
+.product-row {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  background-color: #fff;
+  width: 180px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding-bottom: 10px;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 12px 12px 0 0;
+}
+
+.product-card h4 {
+  margin: 10px 0 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.product-card p {
+  font-size: 12px;
+  color: #555;
+  margin: 0 0 10px;
+}

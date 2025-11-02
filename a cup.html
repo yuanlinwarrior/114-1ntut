@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>談咖 A CUP</title>
+  <link rel="stylesheet" href="a cup.css" />
+</head>
+<body>
+  <!-- 🔸 頂部導覽列 -->
+  <header class="navbar">
+    <nav>
+      <ul>
+        <li><a href="#">SHOP</a></li>
+        <li><a href="#">SPECIAL COFFEE</a></li>
+        <li><a href="#">OTHER</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- 🔸 首頁主視覺區 -->
+  <section class="banner">
+    <div class="banner-text">
+      <!--
+      <h1><span class="big-text">A CUP</span></h1>
+      <p class="subtitle">The Coffee Shop</p>
+      -->
+      <button class="shop-btn">SHOP NOW</button>
+      <!--
+      <p class="creator">LIN, YU-AN & CHEN, YI-XUAN</p>
+      <p class="brand-name">欸咖.</p>
+      -->
+    </div>
+
+    <div class="banner-image">
+      <img src="https://github.com/yuanlinwarrior/114-1ntut/blob/main/banner.png?raw=true" alt="coffee cup">
+    </div>
+  </section>
+
+  <!-- 🔸 品牌介紹導覽列 -->
+  <nav class="tabs">
+    <button class="tab" data-target="founder">Founder</button>
+    <button class="tab" data-target="history">History</button>
+    <button class="tab active" data-target="intro">Introduction</button>
+  </nav>
+
+  <!-- 🔸 品牌內容區塊 -->
+  <div class="content-box">
+
+    <!-- Founder 區 -->
+    <section id="founder" class="content">
+      <h2>✦ Founder ✦</h2>
+      <p>CHEN, YI-XUAN<br>LIN, YU-AN</p>
+    </section>
+
+    <!-- History 區 -->
+    <section id="history" class="content">
+      <h2>✦ History ✦</h2>
+      <ul>
+        <li><strong>2023</strong> — LIN (YU-AN) & CHEN (YI-XUAN) met at Taipei University of Technology.</li>
+        <li><strong>2024</strong> — Created our brand because of a teacher’s end-of-term requirement.</li>
+        <li><strong>2025</strong> — We both love desserts and coffee, so we decided to start a business.</li>
+      </ul>
+    </section>
+
+    <!-- Introduction 區 -->
+    <section id="intro" class="content active">
+      <h2>✦ Brand Introduction ✦</h2>
+      <p>
+        商標設計以「談咖」為主題，融合台語中「下面」的諧音與英文
+        「A Cup Of」的雙關語意。「談咖」的發音亦讓人聯想到「A 喝杯」，
+        因此在造型上以少女感的冰注大眼睛作為視覺焦點，
+        象徵甜美、純真與一絲趣味性。
+      </p>
+    </section>
+  </div>
+
+  <!-- 🔸 推薦商品區塊 -->
+  <section id="products" class="products-section">
+    <h2>推薦商品</h2>
+
+    <!-- A CUP 商品 -->
+    <div class="product-category">
+      <h3>A CUP</h3>
+      <div class="product-row">
+        <div class="product-card">
+          <img src="coffee.jpg" alt="coffee">
+          <h4>COFFEE</h4>
+          <p>srvnasmnrcbahuj</p>
+        </div>
+        <div class="product-card">
+          <img src="coffee.jpg" alt="coffee">
+          <h4>COFFEE</h4>
+          <p>srvnasmnrcbahuj</p>
+        </div>
+        <div class="product-card">
+          <img src="coffee.jpg" alt="coffee">
+          <h4>COFFEE</h4>
+          <p>srvnasmnrcbahuj</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- SEWER 商品 -->
+    <div class="product-category">
+      <h3>SEWER</h3>
+      <div class="product-row">
+        <div class="product-card">
+          <img src="coffee.jpg" alt="coffee">
+          <h4>COFFEE</h4>
+          <p>srvnasmnrcbahuj</p>
+        </div>
+        <div class="product-card">
+          <img src="coffee.jpg" alt="coffee">
+          <h4>COFFEE</h4>
+          <p>srvnasmnrcbahuj</p>
+        </div>
+        <div class="product-card">
+          <img src="coffee.jpg" alt="coffee">
+          <h4>COFFEE</h4>
+          <p>srvnasmnrcbahuj</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- JS 互動腳本 -->
+  <script src="a cup.js"></script>
+</body>
+</html>
